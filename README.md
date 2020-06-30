@@ -113,11 +113,4 @@ Please read through [this guide](https://guides.github.com/features/mastering-ma
 
 
 
-# Discord Bot Support
 
-If you would like to allow a moderator to get direct access to your server's commands, you may want to set up a Discord bot on your server.
-
-The setup is very simple, all you need is a Discord App Token and a role on your server.
-Both can be specified in the config within the file.
-
-After this is complete just run the `console-discord.js` file in the `run` folder and your server will start along with the bot.
