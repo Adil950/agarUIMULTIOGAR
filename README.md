@@ -92,7 +92,7 @@ Please read through [this guide](https://guides.github.com/features/mastering-ma
 >![Console](http://i.imgur.com/bS5ToRD.png)
 
 >### Gameplay
->![Gameplay](http://i.imgur.com/XsXjT0o.png)
+>![Gameplay](https://i.imgur.com/qPIzXak.png)
 
 >---
 
