@@ -1,0 +1,95 @@
+=== Started 2020-06-27T23-04-15-692 ===
+[INFO ][23:04:15] 418 bad words loaded
+[WARN ][23:04:15] User account "Local Administrator" disabled
+[WARN ][23:04:15] User account "Local Moderator" disabled
+[WARN ][23:04:15] User account "Local User" disabled
+[INFO ][23:04:15] 0 user records loaded.
+[WARN ][23:04:15] ../src/ipbanlist.txt is missing.
+[INFO ][23:04:15] [1m[32mMultiOgar-Edited 1.6.1[37m - An open source multi-protocol ogar server[0m
+[INFO ][23:04:15] WebSocket: ws
+[INFO ][23:04:15] Started stats server on port 88
+[INFO ][23:04:15] Listening on port 443
+[INFO ][23:04:15] Current game mode is Free For All
+[NONE ][23:04:15]   __  __       _ _   _  ___                        _____    _ _ _           _    _   __    _ 
+ |  \/  |_   _| | |_(_)/ _ \  __ _  __ _ _ __     | ____|__| (_) |_ ___  __| |  / | / /_  / |
+ | |\/| | | | | | __| | | | |/ _` |/ _` | '__|____|  _| / _` | | __/ _ \/ _` |  | || '_ \ | |
+ | |  | | |_| | | |_| | |_| | (_| | (_| | | |_____| |__| (_| | | ||  __/ (_| |  | || (_) || |
+ |_|  |_|\__,_|_|\__|_|\___/ \__, |\__,_|_|       |_____\__,_|_|\__\___|\__,_|  |_(_)___(_)_|
+                             |___/                                                           
+[NONE ][23:04:17] CONNECTED 127.0.0.1:57365, origin: "http://agarvaii.xyz"
+[NONE ][23:04:17] CONNECTED 127.0.0.1:57366, origin: "http://agarvaii.xyz"
+[NONE ][23:05:13] >playerid
+[WARN ][23:05:13] Invalid Command!
+[NONE ][23:05:21] >help
+[NONE ][23:05:21]                        ┌────────────────────────────┐                       
+                       │ LIST OF AVAILABLE COMMANDS │                       
+┌──────────────────────┴────────────────────────────┴──────────────────────┐
+│                         ----Players and AI----                           │
+│                                                                          │
+│ playerlist                   │ Get list of players, bots, ID's, etc      │
+│ minion [PlayerID] [#] [name] │ Adds suicide minions to the server        │
+│ addbot [number]              │ Adds bots to the server                   │
+│ kickbot [number]             │ Kick a number of bots - No value= all gone│
+│ kick [PlayerID]              │ Kick player or bot by client ID           │
+│ kickall                      │ Kick all players and bots                 │
+│ kill [PlayerID]              │ Kill the player by client ID              │
+│ killall                      │ Kills everyone                            │
+│                                                                          │
+│                          ----Player Commands----                         │
+│                                                                          │
+│ spawn [entity] [pos] [mass]  │ Spawns an entity                          │
+│ mass [PlayerID] [mass]       │ Set cell(s) mass by client ID             │
+│ merge [PlayerID]             │ Merge all client's cells                  │
+│ spawnmass [PlayerID] [mass]  │ Sets a player's spawn mass                │
+│ freeze [PlayerID]            │ Freezes a player                          │
+│ speed [PlayerID]             │ Sets a player's base speed                │
+│ color [PlayerID] [R] [G] [B] │ Set cell(s) color by client ID            │
+│ name [PlayerID] [name]       │ Change cell(s) name by client ID          │
+│ skin [PlayerID] [string]     │ Change cell(s) skin by client ID          │
+│ rec [PlayerID]               │ Gives a player instant-recombine + more   │
+│ split [PlayerID] [Amount]    │ Forces a player to split                  │
+│ tp [X] [Y]                   │ Teleports player(s) to XY coordinates     │
+│ replace [PlayerID] [entity]  │ Replaces a player with an entity          │
+│ pop [PlayerID]               │ Pops a player with a virus                │
+| explode [PlayerID]           | Explodes a player into ejected mass       |
+│                                                                          │
+│                          ----Server Commands----                         │
+│                                                                          │
+│ pause                        │ Pause game, freeze all nodes              │
+│ board [string] [string] ...  │ Set scoreboard text                       │
+│ change [setting] [value]     │ Change specified settings                 │
+│ reload                       │ Reload config, banlist, and role files    │
+│ ban [PlayerID │ IP]          │ Bans a player(s) IP                       │
+│ unban [IP]                   │ Unbans an IP                              │
+│ banlist                      │ Get list of banned IPs.                   │
+│ mute [PlayerID]              │ Mute player from chat by client ID        │
+│ unmute [PlayerID]            │ Unmute player from chat by client ID      │
+| lms                          | Starts/ends last man standing             |
+| chat                         | Sends a server message to all clients     |
+│                                                                          │
+│                          ----Miscellaneous----                           │
+│                                                                          │
+│ clear                        │ Clear console output                      │
+│ reset                        │ Removes all nodes and reimplement them    │
+│ status                       │ Get server status                         │
+│ debug                        │ Get/check node lengths                    │
+│ exit                         │ Stops the server                          │
+│ calc                         │ Get size/mass from a specified value      │
+│                                                                          │
+├──────────────────────────────────────────────────────────────────────────┤
+│         Psst! Do "shortcuts" for a list of command shortcuts!            │
+└──────────────────────────────────────────────────────────────────────────┘
+[NONE ][23:05:29] >playerlist
+[NONE ][23:05:29] 
+Current players: 2
+[NONE ][23:05:29] Do "playerlist m" or "pl m" to list minions
+
+[NONE ][23:05:29]  ID     | IP              | P | CELLS | SCORE  |   POSITION   | NICK            
+[NONE ][23:05:29] ────────────────────────────────────────────────────────────────────────────────
+[NONE ][23:05:29]       1 | 127.0.0.1       | 5 |     3 |    629 | -1148,   343 | Profile 1      
+[NONE ][23:05:29]       2 | 127.0.0.1       | 5 |     1 |    831 |  6926,  6402 | An unnamed cell
+[NONE ][23:05:33] >mn 1 100
+[NONE ][23:05:33] Added 100 minions for Profile 1
+[NONE ][23:05:43] >mn 1 500
+[NONE ][23:05:43] Added 500 minions for Profile 1
+[NONE ][23:07:23] DISCONNECTED 127.0.0.1:57365, code: 1001, reason: "", name: "Profile 1"

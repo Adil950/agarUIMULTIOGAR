@@ -1,0 +1,15 @@
+=== Started 2020-05-18T17-44-37-921 ===
+[INFO ][17:44:37] 418 bad words loaded
+[WARN ][17:44:37] User account "Local Administrator" disabled
+[WARN ][17:44:37] User account "Local Moderator" disabled
+[WARN ][17:44:37] User account "Local User" disabled
+[INFO ][17:44:37] 0 user records loaded.
+[WARN ][17:44:37] ../src/ipbanlist.txt is missing.
+[INFO ][17:44:37] [1m[32mMultiOgar-Edited 1.6.1[37m - An open source multi-protocol ogar server[0m
+[INFO ][17:44:37] WebSocket: ws
+[ERROR][17:44:38] Stats Server: listen EADDRINUSE: address already in use :::88
+[ERROR][17:44:38] WebSocket: EADDRINUSE - listen EADDRINUSE: address already in use 0.0.0.0:8000
+[ERROR][17:44:38] Server could not bind to port 8000!
+[ERROR][17:44:38] Please close out of Skype or change 'serverPort' in gameserver.ini to a different number.
+[DEBUG][17:44:38] process.exit(1)
+=== Shutdown 2020-05-18T17-44-38-004 ===
