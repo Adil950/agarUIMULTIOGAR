@@ -1,6 +1,7 @@
 # MultiOgar-Edited
 
-Thanks soure code https://github.com/xAzz/UI-Client
+Source code UI CLIENT https://github.com/xAzz/UI-Client
+
 
 >---
 
